@@ -103,7 +103,7 @@ def main():
         this_sim = run_multiple_simulations_for_average(current_scenario, run_count)
         sim_list.append(this_sim)
 
-    print(sim_list[0])
+    write_results_to_csv(sim_list)
 
 
 if __name__ == "__main__":
